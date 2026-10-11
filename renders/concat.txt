@@ -1,0 +1,27 @@
+file 'C:\Users\fagr\Documents\Default Project\screenshots\gsap-3d-scroll-1440.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\screenshots\nexora-luxury-1440.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\screenshots\stripe-luxury-1440.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\01-vanilla-gold\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\02-matcha-frost\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\03-berry-noir\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\04-mocha-volt\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\05-citrus-flash\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\06-nexora-hero\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\07-nexora-pricing\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\08-stripe-luxury\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\09-gsap-craft\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\10-hub-showcase\thumb.png'
+duration 2
+file 'C:\Users\fagr\Documents\Default Project\videos-10-pack\10-hub-showcase\thumb.png'

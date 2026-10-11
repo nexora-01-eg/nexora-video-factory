@@ -1,0 +1,115 @@
+[2026-09-06T13:30:47.584Z] [bg-dark-smoke.mp4] [PREFLIGHT] RE_ENCODED {"reason":""}
+[2026-09-06T13:31:01.732Z] [bg-gradient-wave.mp4] [PREFLIGHT] RE_ENCODED {"reason":""}
+[2026-09-06T13:31:37.789Z] [bg-tech-glitch.mp4] [PREFLIGHT] RE_ENCODED {"reason":""}
+[2026-09-06T13:31:55.423Z] [bg-gold-particles.mp4] [PREFLIGHT] RE_ENCODED {"reason":""}
+[2026-09-06T13:31:55.609Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-06T13:31:55.791Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-06T13:31:55.972Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-06T13:31:56.177Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-06T13:32:02.581Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:32:02.821Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:32:03.184Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:32:03.487Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:32:03.621Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-06T13:32:03.751Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-06T13:32:03.893Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-06T13:32:04.037Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-06T13:32:10.411Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:32:10.657Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:32:10.989Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:32:11.275Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:32:11.419Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-06T13:32:11.566Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-06T13:32:11.706Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-06T13:32:11.843Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-06T13:33:04.074Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:33:04.351Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:33:04.754Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:33:05.076Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:33:05.243Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-06T13:33:05.392Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-06T13:33:05.550Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-06T13:33:05.686Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-06T13:33:05.695Z] [nexora-auto-02] [RENDERING] start
+[2026-09-06T13:36:00.844Z] [nexora-auto-02] [DONE] rendered 8.57MB in 174.3s
+[2026-09-06T13:36:07.175Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:36:07.477Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:36:08.009Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:36:08.329Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:36:08.491Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-06T13:36:08.632Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-06T13:36:08.785Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-06T13:36:08.932Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-06T13:36:08.941Z] [nexora-auto-03] [RENDERING] start
+[2026-09-06T13:37:47.371Z] [nexora-auto-03] [RENDER] ERROR: Command failed: npx --yes hyperframes@0.8.30 render --output renders/output.mp4 (retry 0)
+[2026-09-06T13:38:00.139Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:38:00.399Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:38:00.761Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:38:01.025Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-06T13:38:01.177Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-06T13:38:01.299Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-06T13:38:01.423Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-06T13:38:01.542Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-06T13:38:01.547Z] [nexora-auto-05] [RENDERING] start
+[2026-09-06T13:40:25.795Z] [nexora-auto-05] [DONE] rendered 4.39MB in 144.0s
+[2026-09-07T03:27:46.354Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:27:46.645Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:27:47.007Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:27:47.301Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:27:47.462Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-07T03:27:47.604Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-07T03:27:47.763Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-07T03:27:47.900Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-07T03:27:47.908Z] [nexora-auto-03] [RENDERING] start
+[2026-09-07T03:30:48.809Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:30:49.541Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:30:50.415Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:30:51.254Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:30:51.701Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-07T03:30:52.135Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-07T03:30:52.529Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-07T03:30:52.826Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-07T03:31:19.799Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:31:20.190Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:31:20.652Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:31:21.098Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:31:21.281Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-07T03:31:21.449Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-07T03:31:21.624Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-07T03:31:21.926Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-07T03:31:21.940Z] [nexora-auto-03] [RENDERING] start
+[2026-09-07T03:35:07.808Z] [nexora-auto-03] [DONE] rendered 18.72MB in 225.4s
+[2026-09-07T03:35:29.955Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:35:30.281Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:35:30.663Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:35:31.045Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:35:31.217Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-07T03:35:31.359Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-07T03:35:31.509Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-07T03:35:31.645Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-07T03:35:56.832Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:35:57.167Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:35:57.619Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:35:58.023Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:35:58.178Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-07T03:35:58.318Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-07T03:35:58.480Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-07T03:35:58.630Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-07T03:36:10.016Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:36:10.249Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:36:10.514Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:36:10.760Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-07T03:36:10.887Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-07T03:36:11.017Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-07T03:36:11.231Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-07T03:36:11.401Z] [bgm-rising.mp3] [PREFLIGHT] READY
+[2026-09-07T03:36:11.420Z] [nexora-auto-06] [RENDERING] start
+[2026-09-07T03:38:53.997Z] [nexora-auto-06] [DONE] rendered 8.44MB in 162.3s
+[2026-09-13T15:22:10.099Z] [bg-dark-smoke.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-13T15:22:10.670Z] [bg-gradient-wave.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-13T15:22:11.091Z] [bg-tech-glitch.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-13T15:22:11.480Z] [bg-gold-particles.mp4] [PREFLIGHT] READY {"reason":""}
+[2026-09-13T15:22:11.674Z] [bgm-mission-cinematic.mp3] [PREFLIGHT] READY
+[2026-09-13T15:22:11.836Z] [bgm-rising-tide.mp3] [PREFLIGHT] READY
+[2026-09-13T15:22:12.022Z] [bgm-epic-unease.mp3] [PREFLIGHT] READY
+[2026-09-13T15:22:12.184Z] [bgm-rising.mp3] [PREFLIGHT] READY

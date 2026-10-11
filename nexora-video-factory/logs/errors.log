@@ -1,0 +1,1 @@
+[2026-09-06T13:37:47.371Z] [nexora-auto-03] [RENDER] ERROR: Command failed: npx --yes hyperframes@0.8.30 render --output renders/output.mp4 (retry 0)

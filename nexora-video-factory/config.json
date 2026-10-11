@@ -1,0 +1,27 @@
+{
+  "factory": "NEXORA VIDEO FACTORY V2",
+  "version": "2.0.0",
+  "concurrency": 1,
+  "maxRetries": 3,
+  "expectedDuration": 34,
+  "expectedWidth": 1920,
+  "expectedHeight": 1080,
+  "expectedFps": 30,
+  "expectedVideoCodec": "h264",
+  "expectedAudioCodec": "aac",
+  "processedAssetsDir": "../nexora-treasury/processed",
+  "stateFile": ".factory-state.json",
+  "logsDir": "logs",
+  "ffmpeg": {
+    "videoCodec": "libx264",
+    "pixFmt": "yuv420p",
+    "fps": 30,
+    "gop": 30,
+    "preset": "fast",
+    "crf": 23,
+    "maxrate": "8000k",
+    "bufsize": "16000k",
+    "audioCodec": "aac",
+    "audioBitrate": "128k"
+  }
+}

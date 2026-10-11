@@ -1,0 +1,134 @@
+[2026-09-06T13:30:40.023Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-06T13:30:40.600Z] [PIPELINE] Re-encoding bg-dark-smoke.mp4: fps 25.00 != 30
+[2026-09-06T13:30:47.582Z] [PIPELINE] Re-encoded OK: bg-dark-smoke.mp4 -> processed {"newProbe":{"codec_name":"h264","codec_type":"video","width":1920,"height":1080,"pix_fmt":"yuv420p","r_frame_rate":"30/1","avg_frame_rate":"30/1","duration":"6.000000"}}
+[2026-09-06T13:30:47.721Z] [PIPELINE] Re-encoding bg-gradient-wave.mp4: fps 25.00 != 30
+[2026-09-06T13:31:01.731Z] [PIPELINE] Re-encoded OK: bg-gradient-wave.mp4 -> processed {"newProbe":{"codec_name":"h264","codec_type":"video","width":1920,"height":1080,"pix_fmt":"yuv420p","r_frame_rate":"30/1","avg_frame_rate":"30/1","duration":"8.000000"}}
+[2026-09-06T13:31:01.912Z] [PIPELINE] Re-encoding bg-tech-glitch.mp4: fps 25.00 != 30
+[2026-09-06T13:31:37.788Z] [PIPELINE] Re-encoded OK: bg-tech-glitch.mp4 -> processed {"newProbe":{"codec_name":"h264","codec_type":"video","width":1920,"height":1080,"pix_fmt":"yuv420p","r_frame_rate":"30/1","avg_frame_rate":"30/1","duration":"6.000000"}}
+[2026-09-06T13:31:37.964Z] [PIPELINE] Re-encoding bg-gold-particles.mp4: fps 25.00 != 30
+[2026-09-06T13:31:55.422Z] [PIPELINE] Re-encoded OK: bg-gold-particles.mp4 -> processed {"newProbe":{"codec_name":"h264","codec_type":"video","width":1920,"height":1080,"pix_fmt":"yuv420p","r_frame_rate":"30/1","avg_frame_rate":"30/1","duration":"8.000000"}}
+[2026-09-06T13:31:56.178Z] [PIPELINE] Preflight all assets READY
+[2026-09-06T13:32:02.332Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-06T13:32:04.038Z] [PIPELINE] Preflight all assets READY
+[2026-09-06T13:32:04.385Z] [PIPELINE] Generated nexora-auto-01 {"status":"DONE"}
+[2026-09-06T13:32:04.423Z] [PIPELINE] Generated nexora-auto-02 {"status":"GENERATED"}
+[2026-09-06T13:32:04.551Z] [PIPELINE] Generated nexora-auto-03 {"status":"GENERATED"}
+[2026-09-06T13:32:04.950Z] [PIPELINE] Generated nexora-auto-04 {"status":"DONE"}
+[2026-09-06T13:32:04.974Z] [PIPELINE] Generated nexora-auto-05 {"status":"GENERATED"}
+[2026-09-06T13:32:10.156Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-06T13:32:11.844Z] [PIPELINE] Preflight all assets READY
+[2026-09-06T13:33:03.241Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-06T13:33:05.687Z] [PIPELINE] Preflight all assets READY
+[2026-09-06T13:36:06.863Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-06T13:36:08.933Z] [PIPELINE] Preflight all assets READY
+[2026-09-06T13:37:59.367Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-06T13:38:01.542Z] [PIPELINE] Preflight all assets READY
+[2026-09-07T03:27:45.967Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-07T03:27:47.900Z] [PIPELINE] Preflight all assets READY
+[2026-09-07T03:30:47.696Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-07T03:30:52.828Z] [PIPELINE] Preflight all assets READY
+[2026-09-07T03:31:19.367Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-07T03:31:21.929Z] [PIPELINE] Preflight all assets READY
+[2026-09-07T03:35:29.595Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-07T03:35:31.646Z] [PIPELINE] Preflight all assets READY
+[2026-09-07T03:35:56.522Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-07T03:35:58.631Z] [PIPELINE] Preflight all assets READY
+[2026-09-07T03:35:59.620Z] [PIPELINE] Generated nexora-auto-06 {"status":"GENERATED"}
+[2026-09-07T03:36:09.790Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-07T03:36:11.403Z] [PIPELINE] Preflight all assets READY
+[2026-09-13T15:22:08.512Z] [PIPELINE] Preflight start: 4 bg videos, 4 bgm
+[2026-09-13T15:22:12.184Z] [PIPELINE] Preflight all assets READY
+[2026-09-13T15:22:13.523Z] [PIPELINE] Generated nexora-auto-07 {"status":"GENERATED"}
+[2026-09-13T15:22:13.546Z] [PIPELINE] Generated nexora-auto-08 {"status":"GENERATED"}
+[2026-09-13T15:22:13.610Z] [PIPELINE] Generated nexora-auto-09 {"status":"GENERATED"}
+[2026-09-13T15:22:13.683Z] [PIPELINE] Generated nexora-auto-10 {"status":"GENERATED"}
+[2026-09-13T15:22:13.716Z] [PIPELINE] Generated nexora-auto-11 {"status":"GENERATED"}
+[2026-09-13T15:22:13.741Z] [PIPELINE] Generated nexora-auto-12 {"status":"GENERATED"}
+[2026-09-13T15:22:13.808Z] [PIPELINE] Generated nexora-auto-13 {"status":"GENERATED"}
+[2026-09-13T15:22:13.905Z] [PIPELINE] Generated nexora-auto-14 {"status":"GENERATED"}
+[2026-09-13T15:22:13.985Z] [PIPELINE] Generated nexora-auto-15 {"status":"GENERATED"}
+[2026-09-13T15:22:14.012Z] [PIPELINE] Generated nexora-auto-16 {"status":"GENERATED"}
+[2026-09-13T15:22:14.078Z] [PIPELINE] Generated nexora-auto-17 {"status":"GENERATED"}
+[2026-09-13T15:22:14.181Z] [PIPELINE] Generated nexora-auto-18 {"status":"GENERATED"}
+[2026-09-13T15:22:14.222Z] [PIPELINE] Generated nexora-auto-19 {"status":"GENERATED"}
+[2026-09-13T15:22:14.246Z] [PIPELINE] Generated nexora-auto-20 {"status":"GENERATED"}
+[2026-09-13T15:22:14.314Z] [PIPELINE] Generated nexora-auto-21 {"status":"GENERATED"}
+[2026-09-13T15:22:14.385Z] [PIPELINE] Generated nexora-auto-22 {"status":"GENERATED"}
+[2026-09-13T15:22:14.414Z] [PIPELINE] Generated nexora-auto-23 {"status":"GENERATED"}
+[2026-09-13T15:22:14.436Z] [PIPELINE] Generated nexora-auto-24 {"status":"GENERATED"}
+[2026-09-13T15:22:14.488Z] [PIPELINE] Generated nexora-auto-25 {"status":"GENERATED"}
+[2026-09-13T15:22:14.533Z] [PIPELINE] Generated nexora-auto-26 {"status":"GENERATED"}
+[2026-09-13T15:22:14.565Z] [PIPELINE] Generated nexora-auto-27 {"status":"GENERATED"}
+[2026-09-13T15:22:14.584Z] [PIPELINE] Generated nexora-auto-28 {"status":"GENERATED"}
+[2026-09-13T15:22:14.627Z] [PIPELINE] Generated nexora-auto-29 {"status":"GENERATED"}
+[2026-09-13T15:22:14.675Z] [PIPELINE] Generated nexora-auto-30 {"status":"GENERATED"}
+[2026-09-13T15:22:14.704Z] [PIPELINE] Generated nexora-auto-31 {"status":"GENERATED"}
+[2026-09-13T15:22:14.737Z] [PIPELINE] Generated nexora-auto-32 {"status":"GENERATED"}
+[2026-09-13T15:22:14.783Z] [PIPELINE] Generated nexora-auto-33 {"status":"GENERATED"}
+[2026-09-13T15:22:14.829Z] [PIPELINE] Generated nexora-auto-34 {"status":"GENERATED"}
+[2026-09-13T15:22:14.854Z] [PIPELINE] Generated nexora-auto-35 {"status":"GENERATED"}
+[2026-09-13T15:22:14.874Z] [PIPELINE] Generated nexora-auto-36 {"status":"GENERATED"}
+[2026-09-13T15:22:14.907Z] [PIPELINE] Generated nexora-auto-37 {"status":"GENERATED"}
+[2026-09-13T15:22:14.951Z] [PIPELINE] Generated nexora-auto-38 {"status":"GENERATED"}
+[2026-09-13T15:22:14.981Z] [PIPELINE] Generated nexora-auto-39 {"status":"GENERATED"}
+[2026-09-13T15:22:15.002Z] [PIPELINE] Generated nexora-auto-40 {"status":"GENERATED"}
+[2026-09-13T15:22:15.041Z] [PIPELINE] Generated nexora-auto-41 {"status":"GENERATED"}
+[2026-09-13T15:22:15.090Z] [PIPELINE] Generated nexora-auto-42 {"status":"GENERATED"}
+[2026-09-13T15:22:15.123Z] [PIPELINE] Generated nexora-auto-43 {"status":"GENERATED"}
+[2026-09-13T15:22:15.148Z] [PIPELINE] Generated nexora-auto-44 {"status":"GENERATED"}
+[2026-09-13T15:22:15.197Z] [PIPELINE] Generated nexora-auto-45 {"status":"GENERATED"}
+[2026-09-13T15:22:15.252Z] [PIPELINE] Generated nexora-auto-46 {"status":"GENERATED"}
+[2026-09-13T15:22:15.290Z] [PIPELINE] Generated nexora-auto-47 {"status":"GENERATED"}
+[2026-09-13T15:22:15.324Z] [PIPELINE] Generated nexora-auto-48 {"status":"GENERATED"}
+[2026-09-13T15:22:15.366Z] [PIPELINE] Generated nexora-auto-49 {"status":"GENERATED"}
+[2026-09-13T15:22:15.435Z] [PIPELINE] Generated nexora-auto-50 {"status":"GENERATED"}
+[2026-09-13T15:22:15.472Z] [PIPELINE] Generated nexora-auto-51 {"status":"GENERATED"}
+[2026-09-13T15:22:15.510Z] [PIPELINE] Generated nexora-auto-52 {"status":"GENERATED"}
+[2026-09-13T15:22:15.558Z] [PIPELINE] Generated nexora-auto-53 {"status":"GENERATED"}
+[2026-09-13T15:22:15.616Z] [PIPELINE] Generated nexora-auto-54 {"status":"GENERATED"}
+[2026-09-13T15:22:15.662Z] [PIPELINE] Generated nexora-auto-55 {"status":"GENERATED"}
+[2026-09-13T15:22:15.692Z] [PIPELINE] Generated nexora-auto-56 {"status":"GENERATED"}
+[2026-09-13T15:22:15.743Z] [PIPELINE] Generated nexora-auto-57 {"status":"GENERATED"}
+[2026-09-13T15:22:15.801Z] [PIPELINE] Generated nexora-auto-58 {"status":"GENERATED"}
+[2026-09-13T15:22:15.837Z] [PIPELINE] Generated nexora-auto-59 {"status":"GENERATED"}
+[2026-09-13T15:22:15.862Z] [PIPELINE] Generated nexora-auto-60 {"status":"GENERATED"}
+[2026-09-13T15:22:15.900Z] [PIPELINE] Generated nexora-auto-61 {"status":"GENERATED"}
+[2026-09-13T15:22:15.957Z] [PIPELINE] Generated nexora-auto-62 {"status":"GENERATED"}
+[2026-09-13T15:22:15.984Z] [PIPELINE] Generated nexora-auto-63 {"status":"GENERATED"}
+[2026-09-13T15:22:16.002Z] [PIPELINE] Generated nexora-auto-64 {"status":"GENERATED"}
+[2026-09-13T15:22:16.035Z] [PIPELINE] Generated nexora-auto-65 {"status":"GENERATED"}
+[2026-09-13T15:22:16.082Z] [PIPELINE] Generated nexora-auto-66 {"status":"GENERATED"}
+[2026-09-13T15:22:16.112Z] [PIPELINE] Generated nexora-auto-67 {"status":"GENERATED"}
+[2026-09-13T15:22:16.131Z] [PIPELINE] Generated nexora-auto-68 {"status":"GENERATED"}
+[2026-09-13T15:22:16.161Z] [PIPELINE] Generated nexora-auto-69 {"status":"GENERATED"}
+[2026-09-13T15:22:16.205Z] [PIPELINE] Generated nexora-auto-70 {"status":"GENERATED"}
+[2026-09-13T15:22:16.236Z] [PIPELINE] Generated nexora-auto-71 {"status":"GENERATED"}
+[2026-09-13T15:22:16.260Z] [PIPELINE] Generated nexora-auto-72 {"status":"GENERATED"}
+[2026-09-13T15:22:16.299Z] [PIPELINE] Generated nexora-auto-73 {"status":"GENERATED"}
+[2026-09-13T15:22:16.348Z] [PIPELINE] Generated nexora-auto-74 {"status":"GENERATED"}
+[2026-09-13T15:22:16.382Z] [PIPELINE] Generated nexora-auto-75 {"status":"GENERATED"}
+[2026-09-13T15:22:16.403Z] [PIPELINE] Generated nexora-auto-76 {"status":"GENERATED"}
+[2026-09-13T15:22:16.445Z] [PIPELINE] Generated nexora-auto-77 {"status":"GENERATED"}
+[2026-09-13T15:22:16.504Z] [PIPELINE] Generated nexora-auto-78 {"status":"GENERATED"}
+[2026-09-13T15:22:16.553Z] [PIPELINE] Generated nexora-auto-79 {"status":"GENERATED"}
+[2026-09-13T15:22:16.600Z] [PIPELINE] Generated nexora-auto-80 {"status":"GENERATED"}
+[2026-09-13T15:22:16.669Z] [PIPELINE] Generated nexora-auto-81 {"status":"GENERATED"}
+[2026-09-13T15:22:16.784Z] [PIPELINE] Generated nexora-auto-82 {"status":"GENERATED"}
+[2026-09-13T15:22:16.950Z] [PIPELINE] Generated nexora-auto-83 {"status":"GENERATED"}
+[2026-09-13T15:22:16.976Z] [PIPELINE] Generated nexora-auto-84 {"status":"GENERATED"}
+[2026-09-13T15:22:17.071Z] [PIPELINE] Generated nexora-auto-85 {"status":"GENERATED"}
+[2026-09-13T15:22:17.148Z] [PIPELINE] Generated nexora-auto-86 {"status":"GENERATED"}
+[2026-09-13T15:22:17.194Z] [PIPELINE] Generated nexora-auto-87 {"status":"GENERATED"}
+[2026-09-13T15:22:17.218Z] [PIPELINE] Generated nexora-auto-88 {"status":"GENERATED"}
+[2026-09-13T15:22:17.296Z] [PIPELINE] Generated nexora-auto-89 {"status":"GENERATED"}
+[2026-09-13T15:22:17.368Z] [PIPELINE] Generated nexora-auto-90 {"status":"GENERATED"}
+[2026-09-13T15:22:17.408Z] [PIPELINE] Generated nexora-auto-91 {"status":"GENERATED"}
+[2026-09-13T15:22:17.435Z] [PIPELINE] Generated nexora-auto-92 {"status":"GENERATED"}
+[2026-09-13T15:22:17.494Z] [PIPELINE] Generated nexora-auto-93 {"status":"GENERATED"}
+[2026-09-13T15:22:17.562Z] [PIPELINE] Generated nexora-auto-94 {"status":"GENERATED"}
+[2026-09-13T15:22:17.612Z] [PIPELINE] Generated nexora-auto-95 {"status":"GENERATED"}
+[2026-09-13T15:22:17.663Z] [PIPELINE] Generated nexora-auto-96 {"status":"GENERATED"}
+[2026-09-13T15:22:17.699Z] [PIPELINE] Generated nexora-auto-97 {"status":"GENERATED"}
+[2026-09-13T15:22:17.746Z] [PIPELINE] Generated nexora-auto-98 {"status":"GENERATED"}
+[2026-09-13T15:22:17.771Z] [PIPELINE] Generated nexora-auto-99 {"status":"GENERATED"}
+[2026-09-13T15:22:17.802Z] [PIPELINE] Generated nexora-auto-100 {"status":"GENERATED"}

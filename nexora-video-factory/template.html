@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #0a0a0a; font-family: "Cairo", sans-serif; }
+      .clip { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+      .inner { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column; opacity: 0; }
+      #bg-video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+      .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.62); z-index: 1; }
+      /* S1 LOGO */
+      #s1 .inner { gap: 18px; z-index: 5; }
+      .lt { font-size: 122px; font-weight: 900; color: #d4a843; letter-spacing: 14px; text-transform: uppercase; line-height: 1; }
+      .ll { width: 0; height: 2px; background: linear-gradient(90deg, transparent, #d4a843, transparent); }
+      .lk { font-size: 28px; font-weight: 400; color: #9a9a9a; letter-spacing: 14px; text-transform: uppercase; }
+      .badge { font-size: 20px; font-weight: 700; color: #0a0a0a; background: #d4a843; padding: 6px 22px; border-radius: 20px; margin-top: 10px; letter-spacing: 2px; }
+      /* S2 HOOK */
+      #s2 .inner { gap: 24px; padding: 0 120px; z-index: 5; }
+      .hn { font-size: 190px; font-weight: 900; color: #d4a843; line-height: 1; text-shadow: 0 0 90px rgba(212,168,67,0.35); text-align: center; }
+      .ht { font-size: 54px; font-weight: 700; color: #fff; text-align: center; line-height: 1.5; direction: rtl; }
+      .ht span { color: #d4a843; }
+      /* S3 PROBLEM */
+      #s3 .inner { gap: 22px; padding: 0 140px; z-index: 5; }
+      .pt { font-size: 64px; font-weight: 900; color: #ff4444; text-shadow: 0 0 50px rgba(255,68,68,0.25); }
+      .pi { font-size: 32px; font-weight: 600; color: #e0e0e0; padding: 16px 30px; background: rgba(255,255,255,0.04); border-right: 4px solid #d4a843; border-radius: 0 14px 14px 0; width: 100%; text-align: right; direction: rtl; }
+      .pi span { color: #d4a843; font-weight: 800; }
+      /* S4 STATS */
+      #s4 .inner { flex-direction: row; gap: 70px; padding: 0 100px; z-index: 5; }
+      .st { display: flex; flex-direction: column; align-items: center; gap: 14px; background: rgba(255,255,255,0.03); border: 1px solid rgba(212,168,67,0.12); border-radius: 20px; padding: 30px 28px; min-width: 280px; }
+      .sn { font-size: 84px; font-weight: 900; color: #d4a843; line-height: 1; }
+      .sl { font-size: 20px; font-weight: 600; color: #aaa; text-align: center; line-height: 1.5; }
+      /* S5 SOLUTION/CTA */
+      #s6 .inner { gap: 28px; z-index: 5; }
+      .catt { font-size: 64px; font-weight: 900; color: #fff; text-align: center; line-height: 1.3; direction: rtl; }
+      .catt span { color: #d4a843; }
+      .cab { font-size: 32px; font-weight: 800; color: #0a0a0a; background: #d4a843; padding: 20px 64px; border-radius: 60px; border: none; font-family: "Cairo", sans-serif; box-shadow: 0 12px 40px rgba(212,168,67,0.35); }
+      .cas { font-size: 22px; color: #666; letter-spacing: 2px; }
+      .glow { position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(212,168,67,0.12), transparent 70%); border-radius: 50%; pointer-events: none; opacity: 0; z-index: 2; }
+      .vid-num { position: absolute; top: 40px; left: 50px; font-size: 18px; color: rgba(255,255,255,0.25); font-weight: 700; letter-spacing: 4px; z-index: 10; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="34" data-width="1920" data-height="1080">
+      <video id="bg-video" data-start="0" data-duration="34" src="{{BG_VIDEO_SRC}}" muted></video>
+      <div class="overlay"></div>
+      <div class="vid-num">NEXORA • VIDEO {{VIDEO_NUM}} / 100</div>
+
+      <div id="s1" class="clip" data-start="0" data-duration="4">
+        <div class="inner">
+          <div class="glow" id="g1"></div>
+          <div class="lt" id="lt">NEXORA</div>
+          <div class="ll" id="ll"></div>
+          <div class="lk" id="lk">Business Growth Platform</div>
+          <div class="badge" id="bd">VIDEO {{VIDEO_NUM}}</div>
+        </div>
+      </div>
+
+      <div id="s2" class="clip" data-start="4" data-duration="6">
+        <div class="inner">
+          <div class="glow" id="g2"></div>
+          <div class="hn" id="hn">{{HOOK}}</div>
+          <div class="ht" id="ht">{{HOOK_SUB}}</div>
+        </div>
+      </div>
+
+      <div id="s3" class="clip" data-start="10" data-duration="8">
+        <div class="inner">
+          <div class="glow" id="g3"></div>
+          <div class="pt" id="pt">{{PROBLEM_TITLE}}</div>
+          {{POINTS_HTML}}
+        </div>
+      </div>
+
+      <div id="s4" class="clip" data-start="18" data-duration="5">
+        <div class="inner">
+          <div class="glow" id="g4"></div>
+          {{STATS_HTML}}
+        </div>
+      </div>
+
+      <div id="s6" class="clip" data-start="23" data-duration="11">
+        <div class="inner">
+          <div class="glow" id="g6"></div>
+          <div class="catt" id="catt">{{CTA}}</div>
+          <div class="cab" id="cab">{{CTA_BTN}}</div>
+          <div class="cas" id="cas">nexora01eg.vercel.app</div>
+        </div>
+      </div>
+    </div>
+    <audio id="bgm" data-start="0" data-duration="34" src="{{BGM_SRC}}"></audio>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      gsap.set(".inner", { opacity: 0 });
+      gsap.set("#s1 .inner", { opacity: 1 });
+      gsap.set(".lt", { opacity: 0, y: 40 });
+      gsap.set(".lk", { opacity: 0, y: 18 });
+      gsap.set(".badge", { opacity: 0, y: 12 });
+      gsap.set(".hn", { opacity: 0, scale: 0.3 });
+      gsap.set(".ht", { opacity: 0, y: 40 });
+      gsap.set(".pt", { opacity: 0, y: -22 });
+      gsap.set(".pi", { opacity: 0, x: 50 });
+      gsap.set(".st", { opacity: 0, y: 36 });
+      gsap.set(".catt", { opacity: 0, y: 36 });
+      gsap.set(".cab", { opacity: 0, scale: 0.82 });
+      gsap.set(".cas", { opacity: 0, y: 12 });
+      // S1 0-4
+      tl.to("#g1", { opacity: 1, duration: 1.2, ease: "power2.out" }, 0);
+      tl.to("#lt", { opacity: 1, y: 0, duration: 1.1, ease: "back.out(1.4)" }, 0.3);
+      tl.to("#ll", { width: 320, duration: 0.7, ease: "power2.inOut" }, 1.2);
+      tl.to("#lk", { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 1.7);
+      tl.to("#bd", { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 2.2);
+      tl.to("#s1 .inner", { opacity: 0, duration: 0.4, ease: "power2.in" }, 3.6);
+      tl.set("#s1 .inner", { opacity: 0 }, 4);
+      // S2 4-10
+      tl.set("#s2 .inner", { opacity: 1 }, 4);
+      tl.to("#g2", { opacity: 1, duration: 0.9, ease: "power2.out" }, 4);
+      tl.to("#hn", { opacity: 1, scale: 1, duration: 0.85, ease: "back.out(1.8)" }, 4.3);
+      tl.to("#ht", { opacity: 1, y: 0, duration: 0.75, ease: "power3.out" }, 5.2);
+      tl.to("#hn", { scale: 1.04, duration: 0.35, ease: "power2.inOut", repeat: 1, yoyo: true }, 6.5);
+      tl.to("#s2 .inner", { opacity: 0, duration: 0.45, ease: "power2.in" }, 9.55);
+      tl.set("#s2 .inner", { opacity: 0 }, 10);
+      // S3 10-18
+      tl.set("#s3 .inner", { opacity: 1 }, 10);
+      tl.to("#g3", { opacity: 1, duration: 0.9, ease: "power2.out" }, 10);
+      tl.to("#pt", { opacity: 1, y: 0, duration: 0.55, ease: "power3.out" }, 10.3);
+      // points stagger
+      {{POINTS_TIMELINE}}
+      tl.to("#s3 .inner", { opacity: 0, duration: 0.45, ease: "power2.in" }, 17.55);
+      tl.set("#s3 .inner", { opacity: 0 }, 18);
+      // S4 18-23
+      tl.set("#s4 .inner", { opacity: 1 }, 18);
+      tl.to("#g4", { opacity: 1, duration: 0.9, ease: "power2.out" }, 18);
+      {{STATS_TIMELINE}}
+      tl.to("#s4 .inner", { opacity: 0, duration: 0.45, ease: "power2.in" }, 22.55);
+      tl.set("#s4 .inner", { opacity: 0 }, 23);
+      // S6 CTA 23-34
+      tl.set("#s6 .inner", { opacity: 1 }, 23);
+      tl.to("#g6", { opacity: 1, duration: 0.9, ease: "power2.out" }, 23);
+      tl.to("#catt", { opacity: 1, y: 0, duration: 0.8, ease: "back.out(1.4)" }, 23.4);
+      tl.to("#cab", { opacity: 1, scale: 1, duration: 0.6, ease: "back.out(2)" }, 24.6);
+      tl.to("#cab", { scale: 1.04, duration: 0.45, ease: "power2.inOut", repeat: 6, yoyo: true }, 25.8);
+      tl.to("#cas", { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 25.2);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
